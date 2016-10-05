@@ -3,15 +3,23 @@ var myApp = angular.module('myApp',[]);
 function AppCtrl($scope, $http) {
         console.log("Hello world from controller");
 
-        $http.get('/contactlist').success(function(response){
-          console.log("I got the data i requested");
-          $scope.contactlist = response;
+        var refresh  = function() {
+            $http.get('/contactlist').success(function(response){
+                  console.log("I got the data i requested");
+                  $scope.contactlist = response;
+                  $scope.contact ="";
         });
-      $scope.addContact = function(){
-        console.log($scope.contact);
-        $http.post('/contactlist', $scope.contact).success(function(response){
-          console.log(response);
-        });
+
+      };
+
+      refresh();
+        
+          $scope.addContact = function(){
+                console.log($scope.contact);
+                $http.post('/contactlist', $scope.contact).success(function(response){
+                      console.log(response);
+                      refresh();
+          });
       };
 
 
