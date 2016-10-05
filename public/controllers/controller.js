@@ -36,4 +36,8 @@ function AppCtrl($scope, $http) {
         });
       };
 
+      $scope.update = function(){
+        console.log($scope.contact._id);
+      };
+
 }
