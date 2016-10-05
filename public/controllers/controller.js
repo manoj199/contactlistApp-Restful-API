@@ -7,7 +7,9 @@ function AppCtrl($scope, $http) {
           console.log("I got the data i requested");
           $scope.contactlist = response;
         });
-        //Dummy data for test
+      $scope.addContact = function(){
+        console.log($scope.contact);
+      };
 
 
 }
