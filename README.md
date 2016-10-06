@@ -10,9 +10,19 @@ This README would normally document whatever steps are necessary to get your app
 ![Conatct.png](https://bitbucket.org/repo/RE7pGR/images/3693849240-Conatct.png)
 
 
-## Steps to setup Restful API ##
+# Steps to setup Restful API #
 
-   ## Configuration ##
+
+## Dependencies ##
+
+This repo contains the code for a RESTful API Contact List App that was built using the MEAN stack:
+
+* MongoDB
+* Express
+* AngularJS
+* NodeJS
+
+## Configuration ##
 
 - **Install Git** on you computer from https://git-scm.com/download/win
  
@@ -32,25 +42,61 @@ This README would normally document whatever steps are necessary to get your app
 
          npm install express
 ```
+- Next type this command in **Git Bash** to install mongojs - 
+```
+#!Git
 
- - **Download MongoDB** from https://www.mongodb.com/download-center?jmp=nav#community
+         npm install mongojs
+```
+
+## Database configuration ##
+
+- **Download MongoDB** from https://www.mongodb.com/download-center?jmp=nav#community
+
+- **Install** using **Custom** setting and change install location as **C:/mongo**
+
+- Next create **empty folders** at** C:/data/db**
  
 
 
 
 
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+## How to run tests ##
 
-### Who do I talk to? ###
+- Open **Git Bash** at location **C:/contactlistApp** or **cd to contactlistApp**
 
-* Repo owner or admin
-* Other community or team contact
+- Type this command to start node server at Git Bash
+```
+#!Git
+
+         node server
+```
+
+- Open another **Git Bash** prompt at **C:/mongo/bin** and type
+```
+#!Git
+
+         ./mongod
+```
+  
+to start MongoDB
+
+- Open another **Git Bash** prompt at **C:/mongo/bin** and type
+```
+#!Git
+
+         ./mongo
+         
+
+```
+```
+#!Git
+
+       use contactlist
+         
+
+```
+
+- Open **Chrome Browser** and at URL type **localhost:3000** to launch localhost
