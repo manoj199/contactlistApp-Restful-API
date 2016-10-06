@@ -10,12 +10,27 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Steps to setup Restful API ###
 
-* Summary of set up
-  
-STEPS:
-- Install Git on you computer from https://git-scm.com/download/win
-- Install node.js from https://nodejs.org/en/download/
+- **Install Git** on you computer from https://git-scm.com/download/win
+ 
+- **Install node.js** from https://nodejs.org/en/download/
+ 
+- Steps to **Clone Repo**: Open **Git Bash** in **C:/** and type  
+```
+#!Git
+         git clone https://manoj199@bitbucket.org/manoj199/contactlistapp.git
+```
+ 
+- Next open Git Bash in **C:/contactlistApp** or change directory to contactlistApp
+ 
+- Type this command in **Git Bash** to install Express.js - 
+```
+#!Git
 
+         npm install express
+```
+
+ - **Download MongoDB** from https://www.mongodb.com/download-center?jmp=nav#community
+ 
 
 
 
