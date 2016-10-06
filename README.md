@@ -10,7 +10,7 @@ This README would normally document whatever steps are necessary to get your app
 ![Conatct.png](https://bitbucket.org/repo/RE7pGR/images/3693849240-Conatct.png)
 
 
-# Steps to setup Restful API #
+# Steps to setup Restful API to make HTTP Get, Post, Put and Delete requests #
 
 
 ## Dependencies ##
