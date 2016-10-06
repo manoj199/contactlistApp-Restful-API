@@ -7,8 +7,12 @@ This README would normally document whatever steps are necessary to get your app
 * Rest Client to make HTTP Get, Post, Put and Delete requests
 * Version 1.0
 
+![Conatct.png](https://bitbucket.org/repo/RE7pGR/images/3693849240-Conatct.png)
 
-### Steps to setup Restful API ###
+
+## Steps to setup Restful API ##
+
+   ## Configuration ##
 
 - **Install Git** on you computer from https://git-scm.com/download/win
  
@@ -34,7 +38,7 @@ This README would normally document whatever steps are necessary to get your app
 
 
 
-* Configuration
+
 * Dependencies
 * Database configuration
 * How to run tests
