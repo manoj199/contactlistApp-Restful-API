@@ -2,7 +2,7 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-### Contact List App - Coding Challenge - CauseCode Technologies Pvt. Ltd ###
+### Contact List App###
 
 * Rest Client to make HTTP Get, Post, Put and Delete requests
 * Version 1.0
